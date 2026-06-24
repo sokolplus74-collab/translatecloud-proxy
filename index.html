@@ -226,7 +226,7 @@
 // Вставьте сюда ваш ключ с aistudio.google.com/app/apikey
 const GEMINI_API_KEY = "AQ.Ab8RN6IVoBEl0eW7BuzUdfXDeukNN3KGrixkS1q6VvMaOo4ejA";
 const GEMINI_MODEL = "gemini-2.5-flash";
-const API_URL = "https://translatecloud-proxy.ruslanpetrov7474.workers.dev";
+const API_URL = `https://generativelanguage.googleapis.com/v1beta/models/${GEMINI_MODEL}:generateContent?key=${GEMINI_API_KEY}`;
 
 
 const LANGUAGES = [
